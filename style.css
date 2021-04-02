@@ -25,7 +25,7 @@
     grid-column: 5;
     grid-row:6;
     margin-bottom:10px;
-
+    transition:  2s;
 }
 #square4{
     grid-column: 5;
@@ -51,4 +51,25 @@
     height:45px;
     grid-column: 7;
     grid-row:6;
+}
+
+
+/* .active{
+    background:blue;
+    color:blue;
+    border:5px solid red;
+} */
+
+#one{
+    width: 100px;
+  height: 100px;
+  background: red;
+  transition:  2s;
+}
+#one.active{
+   
+  background-color:yellow;
+}
+#one1{
+  height:20px;
 }
