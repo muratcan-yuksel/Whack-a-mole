@@ -5,10 +5,6 @@
    grid-template-columns: repeat(13, 1fr);
    grid-template-rows: repeat(13, 1fr);
 }
-/* #squares{
-    display:flex;
-    flex-direction: row;
-} */
 
 #square1{
     grid-column: 5;

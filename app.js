@@ -50,7 +50,6 @@ function btn11() {
     square1.style.background = 'black';
   } else if (square1.style.background == 'black') {
     alert('miss');
-    // play an animation of some kind
   }
   button11.disabled = true;
 }
@@ -62,7 +61,6 @@ function btn12() {
     square3.style.background = 'black';
   } else if (square3.style.background == 'black') {
     alert('miss');
-    // animation
   }
   button12.disabled = true;
 }
