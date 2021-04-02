@@ -39,6 +39,7 @@ function btn2() {
     square4.style.background = 'black';
     alert('good job!');
   }
+  // disable after 1 click
   button2.disabled = true;
 }
 
@@ -51,6 +52,7 @@ function btn11() {
     alert('miss');
     // play an animation of some kind
   }
+  button11.disabled = true;
 }
 
 button11.addEventListener('click', btn11);
@@ -62,5 +64,6 @@ function btn12() {
     alert('miss');
     // animation
   }
+  button12.disabled = true;
 }
 button12.addEventListener('click', btn12);

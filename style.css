@@ -52,3 +52,9 @@
     grid-column: 7;
     grid-row:6;
 }
+#refresh{
+    width:100px;
+    height:45px;
+    grid-row: 10;
+    grid-column:5;
+}
