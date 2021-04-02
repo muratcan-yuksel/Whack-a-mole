@@ -39,6 +39,7 @@ function btn2() {
     square4.style.background = 'black';
     alert('good job!');
   }
+  button2.setAttribute('id', 'no-more');
 }
 
 button2.addEventListener('click', btn2);
