@@ -19,5 +19,9 @@
 
 const squares = document.querySelectorAll('.squares');
 squares.forEach((item) => {
-  item.style.color = 'red';
+  item.style.width = '50px';
+  item.style.height = '50px';
+  item.style.border = '1px solid black';
+  item.style.background = 'blue';
+  item.style.borderRadius = '50%';
 });

@@ -4,8 +4,45 @@
    display:grid;
    grid-template-columns: repeat(13, 1fr);
    grid-template-rows: repeat(13, 1fr);
-
-#squares{
+}
+/* #squares{
     display:flex;
     flex-direction: row;
+} */
+
+#square1{
+    grid-column: 5;
+    grid-row:4;
+    margin-bottom:10px;
+}
+#square2{
+    grid-column: 5;
+    grid-row:5;
+    margin-bottom:10px;
+
+}
+#square3{
+    grid-column: 5;
+    grid-row:6;
+    margin-bottom:10px;
+
+}
+#square4{
+    grid-column: 5;
+    grid-row:7;
+    margin-bottom:10px;
+
+}
+
+#button1{
+    width:40px;
+    height:40px;
+}
+#button2{
+    width:40px;
+    height:40px;
+}
+#button3{
+    width:40px;
+    height:40px;
 }
