@@ -35,14 +35,20 @@
 }
 
 #button1{
-    width:40px;
+    width:50px;
     height:40px;
+    grid-column: 5;
+    grid-row:2;
 }
 #button2{
-    width:40px;
-    height:40px;
+    width:50px;
+    height:45px;
+    grid-column: 7;
+    grid-row:4;
 }
 #button3{
-    width:40px;
-    height:40px;
+    width:50px;
+    height:45px;
+    grid-column: 7;
+    grid-row:6;
 }
