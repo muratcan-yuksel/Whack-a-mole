@@ -34,19 +34,19 @@
 
 }
 
-#button1{
+#button-2{
     width:50px;
     height:40px;
     grid-column: 5;
     grid-row:2;
 }
-#button2{
+#button-1-1{
     width:50px;
     height:45px;
     grid-column: 7;
     grid-row:4;
 }
-#button3{
+#button-1-2{
     width:50px;
     height:45px;
     grid-column: 7;
