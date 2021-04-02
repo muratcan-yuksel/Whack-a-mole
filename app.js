@@ -1,13 +1,12 @@
 // get the squares and style them
-// const squares = document.querySelectorAll('.squares');
-// squares.forEach((item) => {
-//   item.style.width = '50px';
-//   item.style.height = '50px';
-//   item.style.border = '1px solid black';
-//   item.style.background = 'grey';
-//   item.style.borderRadius = '50%';
-// });
-
+const squares = document.querySelectorAll('.squares');
+squares.forEach((item) => {
+  item.style.width = '50px';
+  item.style.height = '50px';
+  item.style.border = '1px solid black';
+  item.style.background = 'grey';
+  item.style.borderRadius = '50%';
+});
 // get the squares
 const square1 = document.getElementById('square1');
 const square2 = document.getElementById('square2');
@@ -57,17 +56,10 @@ button11.addEventListener('click', btn11);
 
 function btn12() {
   if (square3.style.background == 'grey') {
-    // square3.style.background = 'black';
-    square3.setAttribute('class', 'active');
+    square3.style.background = 'black';
   } else if (square3.style.background == 'black') {
     alert('miss');
     // animation
   }
 }
 button12.addEventListener('click', btn12);
-
-const one = document.getElementById('one1');
-const di = document.getElementById('one');
-one.addEventListener('click', function () {
-  di.setAttribute('class', 'active');
-});
